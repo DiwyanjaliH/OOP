@@ -7,7 +7,7 @@ const timerDisplay = document.getElementById("timer");
 const dropboxLink = "https://www.dropbox.com/request/d8sly1wlo77sp4lth3y1";
 
 // ⏳ 30 minutes in ms
-const DURATION = 36 * 60 * 1000;
+const DURATION = 35 * 60 * 1000;
 
 // check if end time already exists
 let endTime = localStorage.getItem("endTime");
